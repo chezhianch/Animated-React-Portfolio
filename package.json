@@ -9,6 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+    "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+   "build": "vite build"
+  },
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "install": "^0.13.0",
