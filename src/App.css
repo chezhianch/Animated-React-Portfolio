@@ -495,6 +495,7 @@ gap: 30px;
 }
 /* ===== About Section ===== */
 @media (max-width: 768px) {
+  /* ===== FIXED ABOUT Section ===== */
   .abt-cont {
     display: flex;
     flex-direction: column;
@@ -502,19 +503,9 @@ gap: 30px;
     justify-content: flex-start;
     padding: 20px;
     gap: 1.5rem;
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
+    height: auto; /* Changed from 100vh to auto */
+    overflow: visible; /* Removed scrollbars */
     box-sizing: border-box;
-  }
-
-  .abt-cont::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  .abt-cont::-webkit-scrollbar-thumb {
-    background-color: #2194ba;
-    border-radius: 3px;
   }
 
   .profile-img {
