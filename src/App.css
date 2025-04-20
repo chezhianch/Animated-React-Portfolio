@@ -455,7 +455,7 @@ position:relative;
 
   .hero-text {
     padding: 0;
-    text-align: center;
+    text-align: start;
   }
 
   .hero-text h1 {
