@@ -422,7 +422,19 @@ gap: 30px;
     align-items: center;
     padding: 1rem;
   }
-
+.align{
+  position: relative;
+  top: 30px;
+}
+.portfolio-text{
+  position:absolute;
+  margin-top:0px;
+}
+.social-links {
+  display: flex;
+ position:relative;
+  right:50px;
+}
   .nav-links {
     position: relative;
     left: 10px;
@@ -436,10 +448,12 @@ gap: 30px;
 
   /* Hero Section */
   .hero-content {
-    text-align: start;
+    text-align: left;
     flex-direction: column;
     padding: 1rem;
+    position: relative;
     top: 60px;
+left: 20px;
   }
 
   .hero-text {
