@@ -299,7 +299,7 @@ gap: 30px;
 }
 /* Container for the contact form */
 .container {
-  display: flex;
+  display: flexg;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -374,8 +374,6 @@ gap: 30px;
   background-color: #00e6e6;
 }
 /* === IMPROVED RESPONSIVENESS === */
-
-/* === TABLET & BELOW === */
 @media (max-width: 1024px) {
   .cnt-btn {
     top: auto;
@@ -407,34 +405,35 @@ gap: 30px;
   }
 }
 
+/* === MOBILE & SMALL TABLETS === */
 @media (max-width: 768px) {
   /* Navbar */
-  .navbar,
+  .navbar {
+    flex-direction: column;
+    left: 0;
+    top: 30px;
+    padding: 0;
+  }
+
   .navbar-container {
     flex-direction: column;
     align-items: center;
     padding: 1rem;
   }
-
-  .align {
-    position: relative;
-    left: 0;
-    top: 40px;
-  }
-
-  .portfolio-text {
-    position: absolute;
-    margin-top: 0px;
-    left: 10px;
-  }
-
-  .social-links {
-    display: flex;
-    position: relative;
-    right: 50px;
-    gap: 30px;
-  }
-
+.align{
+  position: relative;
+  left: 0px;
+  top: 40px;
+}
+.portfolio-text{
+  position:absolute;
+  margin-top:0px;
+}
+.social-links {
+  display: flex;
+ position:relative;
+  right:60px;
+}
   .nav-links {
     position: relative;
     left: 10px;
@@ -448,43 +447,54 @@ gap: 30px;
 
   /* Hero Section */
   .hero-content {
+    text-align: left;
     flex-direction: column;
     padding: 1rem;
-    text-align: left;
+
   }
 
-  .hero-text {
-    padding: 20px;
-    text-align: left;
-    position: relative;
-    left: 10px;
-    top: 30px;
-    margin-top: -50px;
-  }
+/* ===== Hero Section ===== */
+.hero-text {
+  padding: 20px;
+  text-align: left;
+  position: relative;
+  left: 10px;
+  top: 30px;
+  margin-top: -50px;
+}
 
-  .hero-text h1 {
-    font-size: 2rem;
-  }
+.hero-text h1 {
+  font-size: 2rem;
+}
 
-  .hero-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-  }
+.hero-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
 
-  .hero-img img {
-    width: 250px;
-  }
+.hero-img img {
+  width: 250px;
+}
 
-  /* Contact Button */
-  .cnt-btn {
-    position: relative;
-    margin-top: 25px;
-    left: 80px;
-  }
+/* ===== Contact Button ===== */
+.cnt-btn {
+  position: relative;
+  margin-top: 25px;
+  left: 80px;
+}
 
-  /* ===== ABOUT Section FIXED ===== */
+/* ===== Social Links ===== */
+.social-links {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  right: 50px;
+}
+}
+/* ===== About Section ===== */
+@media (max-width: 768px) {
   .abt-cont {
     display: flex;
     flex-direction: column;
@@ -536,8 +546,10 @@ gap: 30px;
     margin-bottom: 10px;
     color: #00d9ff;
   }
+}
 
-  /* ===== CONTACT Section ===== */
+
+  /* Contact Section */
   .container {
     padding: 2rem 1rem;
   }
@@ -557,6 +569,7 @@ gap: 30px;
     font-size: 1rem;
   }
 
+  /* General cleanup */
   nav ul {
     flex-direction: column;
     gap: 0.5rem;
@@ -564,12 +577,3 @@ gap: 30px;
 
   nav ul li {
     margin: 0.5rem 0;
-  }
-}
-
-
-
-
-
-
-
