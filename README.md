@@ -1,7 +1,7 @@
-                                                                                       🚀 Animated-React-Portfolio
+                                                                    🚀 Animated-React-Portfolio
 ![Portfolio](https://github.com/user-attachments/assets/d9b87858-6c4f-4681-9d3d-e75230c94585)
 
-Welcome to my personal **animated portfolio** built with React.js! This project highlights who I am, my projects, skills, and how to connect with me — all wrapped in a sleek, animated, and responsive design.
+  Welcome to my personal **animated portfolio** built with React.js! This project highlights who I am, my projects, skills, and how to connect with me — all wrapped in a sleek, animated, and responsive design.
 
  ✨ Features
 
