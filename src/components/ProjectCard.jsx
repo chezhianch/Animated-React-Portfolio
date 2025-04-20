@@ -2,6 +2,12 @@ import React from 'react';
 import './ProjectCard.css';
 
 const ProjectCard = () => {
+  const handleclick=()=>{
+      window.open("https://chezhians-portfolio.vercel.app", "_blank");  
+}
+const handleclick2=()=>{
+  window.open("https://github.com/chezhianch/Animated-React-Portfolio", "_blank");  
+}
   return (
     <div className='page-wrapper'>
     <div className="cards-container">
@@ -17,8 +23,9 @@ const ProjectCard = () => {
             effects utilizing Particle.js.
           </p>
           <div className="button-wrapper">
-            <button className="btn outline">VIEW</button>
-            <button className="btn fill">SOURCE</button>
+            <button className="btn outline" onClick={handleclick}>VIEW</button>
+            
+            <button className="btn fill"onClick={handleclick2}>SOURCE</button>
           </div>
         </div>
       </div>
