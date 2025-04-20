@@ -375,6 +375,7 @@ gap: 30px;
 }
 /* === IMPROVED RESPONSIVENESS === */
 
+/* === TABLET & BELOW === */
 @media (max-width: 1024px) {
   .cnt-btn {
     top: auto;
@@ -392,119 +393,119 @@ gap: 30px;
     left: 0;
     bottom: 0;
     text-align: center;
+    padding: 1rem;
+  }
+
+  .abt-cont {
+    flex-direction: column;
+  }
+
+  .portfolio-text {
+    font-size: 24px;
+    left: 15px;
+    top: 5px;
   }
 }
 
+/* === MOBILE & SMALL TABLETS === */
 @media (max-width: 768px) {
-  .hero-content {
+  /* Navbar */
+  .navbar {
+    flex-direction: column;
+    left: 0;
+    top: 10px;
+    padding: 0;
+  }
+
+  .navbar-container {
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
     padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav-links li a {
+    font-size: 16px;
+  }
+
+  /* Hero Section */
+  .hero-content {
+    flex-direction: column;
+    padding: 1rem;
+    top: 80px;
+  }
+
+  .hero-text {
+    padding: 0;
+    text-align: center;
   }
 
   .hero-text h1 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
-  .about-cnt {
-    font-size: 1rem;
-    padding: 1rem;
-    left: 0;
-    text-align: center;
+  .hero-img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .hero-img img {
+    width: 250px;
+    right: 0;
   }
 
   .cnt-btn {
     position: static;
-    margin: 1.5rem auto 0;
-    display: block;
+    margin-top: 20px;
   }
 
-  .hero-img img {
-    width: 220px;
-    right: 0;
-  }
-
-  .portfolio-text {
-    font-size: 26px;
-    top: 5px;
-    left: 15px;
-  }
-
-  .align {
-    flex-direction: column;
-    gap: 10px;
+  /* About Section */
+  .about-cnt {
     left: 0;
-    top: 60px;
+    padding: 1rem;
+    text-align: center;
   }
 
-  .navbar {
-    left: 0;
-    padding: 0 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero-text h1 {
-    font-size: 24px;
+  .about {
+    font-size: 2rem;
   }
 
-  .hero-text p {
-    font-size: 0.9rem;
-  }
-
-  .cnt-btn {
-    padding: 10px 20px;
-    font-size: 0.9rem;
+  /* Contact Section */
+  .container {
+    padding: 2rem 1rem;
   }
 
   .form {
-    padding: 20px;
+    width: 100%;
+    padding: 1.5rem;
   }
 
-  .project-h2,
-  .head {
-    font-size: 1.2rem;
+  .form input,
+  .form textarea {
+    font-size: 1rem;
   }
 
-  .proj-p {
-    font-size: 0.9rem;
+  .form button {
+    width: 100%;
+    font-size: 1rem;
   }
 
-  .portfolio-text {
-    font-size: 22px;
-    top: 5px;
-    left: 10px;
+  /* General cleanup */
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
-  .icon {
-    left: 0;
+  nav ul li {
+    margin: 0.5rem 0;
   }
 }
-@media (max-width: 480px) {
-  .skills-title {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
 
-  .skill-card {
-    width: 75px;
-    padding: 8px;
-  }
-
-  .skill-svg {
-    width: 60px;
-    height: 60px;
-  }
-
-  .skill-percent {
-    font-size: 12px;
-  }
-
-  .skill-name {
-    font-size: 0.8rem;
-  }
-}
 
 
 

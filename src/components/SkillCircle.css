@@ -1,3 +1,27 @@
+   /* Responsive */
+   @media (max-width: 768px) {
+    .skills-section {
+      padding: 20px;
+    }
+
+    .skills-title {
+      font-size: 1.2rem;
+    }
+
+    .skills-grid {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px 40px;
+    }
+
+    .skill-card {
+      width: 80%;
+    }
+
+    .skill-name {
+      font-size: 0.8rem;
+    }
+  }
 .skills-section {
     padding: 40px 20px;
     color: white;
