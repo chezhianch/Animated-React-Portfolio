@@ -1,4 +1,4 @@
-🚀 Animated-React-Portfolio
+  🚀 Animated-React-Portfolio
 
 ![Portfolio](https://github.com/user-attachments/assets/d9b87858-6c4f-4681-9d3d-e75230c94585)
 
