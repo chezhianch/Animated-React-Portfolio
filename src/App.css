@@ -496,32 +496,44 @@ gap: 30px;
 
 
 
-    /* ===== FIXED ABOUT Section ===== */
-    @media (max-width: 768px) {
-      .abt-scroll-wrapper {
-        height: 100vh;
-        overflow-y: auto;
-        padding-bottom: 4rem;
-        box-sizing: border-box;
-      }
-    
-      .abt-cont {
-        padding-bottom: 2rem;
-      }
-    
-      .profile-img {
-        margin-top: 4rem;
-      }
-    
-      html, body {
-        height: 100%;
-        overflow-x: hidden;
-      }
-    }
-    
-    
-    
-  
+@media (max-width: 768px) {
+  .abt-scroll-wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
+  }
+
+  .abt-cont {
+    padding: 1rem;
+    gap: 1.5rem;
+    padding-bottom: 2rem;
+  }
+
+  .profile-img {
+    margin-top: 4rem;
+  }
+
+  .profile-img img {
+    width: 140px;
+    height: 140px;
+    margin-top: 0;
+  }
+
+  .about {
+    font-size: 1.5rem;
+  }
+
+  .about-cnt {
+    padding: 0 20px;
+    font-size: 1rem;
+  }
+
+  html, body {
+    height: 100%;
+    overflow-x: hidden;
+  }
+}
   /* Contact Section */
   .container {
     padding: 2rem 1rem;
