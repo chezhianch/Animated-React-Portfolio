@@ -460,7 +460,9 @@ gap: 30px;
     text-align: left;
     position: relative;
     left: 10px;
-     top: 30px;
+   
+  margin-top: -40px; /* Adjust this as needed */
+
       
     }
     .social-links {
@@ -492,15 +494,35 @@ gap: 30px;
   }
 
   /* About Section */
-  .about-cnt {
-    left: 0;
-    padding: 1rem;
-    text-align: center;
-  }
+ .about-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  max-height: 500px;
+  overflow-y: auto;
+  padding: 20px;
+}
 
-  .about {
-    font-size: 2rem;
-  }
+.about-img {
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+}
+
+.about-content {
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* Scrollbar styling */
+.about-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+.about-wrapper::-webkit-scrollbar-thumb {
+  background-color: #2194ba;
+  border-radius: 3px;
+}
+
 
   /* Contact Section */
   .container {
