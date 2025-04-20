@@ -451,6 +451,7 @@ position:relative;
     flex-direction: column;
     padding: 1rem;
     top: 30px;
+    left:20px;
   }
 
   .hero-text {
