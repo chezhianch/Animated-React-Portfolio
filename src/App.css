@@ -453,7 +453,7 @@ gap: 30px;
     flex-direction: column;
     padding: 1rem;
    
-  
+  top: 30px;
 
   }
 
@@ -462,7 +462,7 @@ gap: 30px;
     text-align: left;
     position: absolute;
     left: 10px;
-      top: 20px;
+      
     }
     .social-links {
       display: flex;
