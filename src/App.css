@@ -494,7 +494,7 @@ gap: 30px;
   }
 
   /* About Section */
- .about-cont {
+ .abt-cont {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
@@ -515,10 +515,10 @@ gap: 30px;
 }
 
 /* Scrollbar styling */
-.about-cont::-webkit-scrollbar {
+.abt-cont::-webkit-scrollbar {
   width: 6px;
 }
-.about-cont::-webkit-scrollbar-thumb {
+.abt-cont::-webkit-scrollbar-thumb {
   background-color: #2194ba;
   border-radius: 3px;
 }
