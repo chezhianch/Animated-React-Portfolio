@@ -499,14 +499,15 @@ gap: 30px;
     /* ===== FIXED ABOUT Section ===== */
     @media (max-width: 768px) {
       /* ✅ CSS STYLES */
-
+/* ✅ Enable scrolling in the section */
 .abt-scroll-wrapper {
   height: 100vh;
   overflow-y: auto;
+  padding-bottom: 2rem; /* 👈 prevent bottom content from being cut */
+  box-sizing: border-box;
 }
 
-/* Keep your existing class names */
-
+/* ✅ Main container */
 .abt-cont {
   display: flex;
   flex-direction: column;
@@ -519,13 +520,15 @@ gap: 30px;
   box-sizing: border-box;
 }
 
+/* ✅ Move image slightly down */
 .profile-img {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 2rem 0 1rem; /* adds space above and below the image */
+  margin: 3rem 0 1rem; /* 👈 increased top margin */
 }
 
+/* ✅ Style profile image */
 .profile-img img {
   width: 140px;
   height: 140px;
@@ -534,6 +537,7 @@ gap: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
+/* ✅ About heading */
 .about {
   font-size: 1.5rem;
   font-weight: bold;
@@ -541,6 +545,7 @@ gap: 30px;
   color: #00d9ff;
 }
 
+/* ✅ About paragraph */
 .about-cnt {
   width: 100%;
   text-align: center;
