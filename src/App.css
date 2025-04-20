@@ -496,31 +496,34 @@ gap: 30px;
   /* About Section */
 .abt-cont {
   display: flex;
-  flex-direction: column; /* Stack vertically */
-  align-items: center; /* Center image horizontally */
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
   max-height: 600px;
   overflow-y: auto;
-  padding: 20px;
-  gap: 1rem;
+  gap: 1.5rem;
+  text-align: center;
 }
 
 .profile-img {
   display: flex;
   justify-content: center;
+  width: 100%;
 }
 
 .profile-img img {
   max-width: 150px;
   height: auto;
   object-fit: contain;
+  border-radius: 50%;
+  margin: 0 auto;
 }
 
 .about-cnt {
   width: 100%;
-  max-width: 600px;
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 10px;
+  max-width: 700px;
+  padding: 0 15px;
+  text-align: left; /* Make text left-aligned while centered on page */
 }
 
 /* Scrollbar styling */
@@ -531,7 +534,6 @@ gap: 30px;
   background-color: #2194ba;
   border-radius: 3px;
 }
-
 
 
   /* Contact Section */
