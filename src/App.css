@@ -416,6 +416,10 @@ gap: 30px;
     top: 10px;
     padding: 0;
   }
+  .portfolio-text{
+    position:absolute;
+    margin-top:0px;
+  }
 .align{
 position:relative;
   top:20px;
