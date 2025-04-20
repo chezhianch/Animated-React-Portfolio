@@ -1,20 +1,23 @@
-#tsparticles {
-  position: fixed;
+#tsparticles canvas {
+  position: fixed !important;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1 !important;
+  pointer-events: none;
 }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: black; /* or transparent */
+  overflow: hidden;
+}
+
 
 canvas {
   pointer-events: auto; /* Allow interactivity */
-}
-body, html, #root {
-  margin: 0;
-  padding: 0;
-  overflow: hidden; /* 👈 disables page scrolling */
-  height: 100%;
 }
 
 

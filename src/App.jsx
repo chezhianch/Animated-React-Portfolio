@@ -14,8 +14,8 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <ParticleBackground />
-      <div className="app">
+  <div className="app">
+      <ParticleBackground/>
         <Navbar />
         <main>
           <Routes>

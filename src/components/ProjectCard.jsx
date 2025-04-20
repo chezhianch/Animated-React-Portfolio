@@ -3,6 +3,7 @@ import './ProjectCard.css';
 
 const ProjectCard = () => {
   return (
+    <div className='page-wrapper'>
     <div className="cards-container">
       {/* First Card */}
       <div className="card">
@@ -40,6 +41,8 @@ const ProjectCard = () => {
         </div>
       </div>
     </div>
+    </div>
+
   );
 };
 
