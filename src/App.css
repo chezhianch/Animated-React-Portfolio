@@ -485,10 +485,10 @@ gap: 30px;
 
   .cnt-btn {
     position: static;
-    margin-top: 20px;
-    margin-right: 10px;
+    margin-top: 25px;
+
     position: absolute;
-    left:50px;
+    left:60px;
   }
 
   /* About Section */
