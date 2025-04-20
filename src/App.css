@@ -484,10 +484,10 @@ gap: 30px;
   }
 
   .cnt-btn {
-    position: static;
+    position: relative;
     margin-top: 25px;
 
-    left:0px;
+    left:20px;
     
   }
 
