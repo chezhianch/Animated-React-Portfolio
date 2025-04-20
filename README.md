@@ -1,6 +1,7 @@
   🚀 Animated-React-Portfolio
 
-![Portfolio](https://github.com/user-attachments/assets/d9b87858-6c4f-4681-9d3d-e75230c94585)
+[![Live Site](https://img.shields.io/badge/Visit%20Site-Live-blueviolet?style=for-the-badge)](https://chezhians-portfolio.vercel.app)
+
 
   Welcome to my personal **animated portfolio** built with React.js! This project highlights who I am, my projects, skills, and how to connect with me — all wrapped in a sleek, animated, and responsive design.
 
