@@ -506,11 +506,11 @@ gap: 30px;
       }
     
       .abt-scroll-wrapper::-webkit-scrollbar {
-        width: 6px;
+        width: 3px;
       }
     
       .abt-scroll-wrapper::-webkit-scrollbar-thumb {
-        background-color: #00d9ff;
+        background-color: #464646;
         border-radius: 3px;
       }
     
@@ -531,8 +531,9 @@ gap: 30px;
         width: 100%;
         display: flex;
         justify-content: center;
-        margin-bottom: 1rem;
+        margin: 1.5rem 0 1rem 0; /* Added top margin */
       }
+      
     
       .profile-img img {
         width: 140px;
