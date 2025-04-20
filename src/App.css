@@ -406,6 +406,7 @@ gap: 30px;
 }
 
 /* === MOBILE & SMALL TABLETS === */
+/* === MOBILE & SMALL TABLETS === */
 @media (max-width: 768px) {
   /* Navbar */
   .navbar {
@@ -420,20 +421,15 @@ gap: 30px;
     align-items: center;
     padding: 1rem;
   }
-.align{
-  position: relative;
-  left: 0px;
-  top: 40px;
-}
-.portfolio-text{
-  position:absolute;
-  margin-top:0px;
-}
-.social-links {
-  display: flex;
- position:relative;
-  right:60px;
-}
+
+  .align {
+    position: relative;
+    left: 0px;
+    top: 40px;
+    gap: 20px;
+    flex-direction: column;
+  }
+
   .nav-links {
     position: relative;
     left: 10px;
@@ -445,57 +441,63 @@ gap: 30px;
     font-size: 16px;
   }
 
-  /* Hero Section */
-  .hero-content {
-    text-align: left;
-    flex-direction: column;
-    padding: 1rem;
-
+  .portfolio-text {
+    font-size: 24px;
+    left: 15px;
+    top: 5px;
+    position: absolute;
+    margin-top: 0px;
   }
 
-/* ===== Hero Section ===== */
-.hero-text {
-  padding: 20px;
-  text-align: left;
-  margin-top: 30px;
-  margin-left: 10px;
-}
+  /* Hero Section */
+  .hero-content {
+    flex-direction: column;
+    padding: 1rem;
+    text-align: left;
+  }
 
-.hero-text h1 {
-  font-size: 2rem;
-}
+  .hero-text {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
 
-.hero-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 2rem;
-}
+  .hero-text h1 {
+    font-size: 2rem;
+  }
 
-.hero-img img {
-  width: 250px;
-}
+  .hero-img {
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
 
-@media (max-width: 768px) {
+  .hero-img img {
+    width: 250px;
+    right: 0;
+  }
+
   .cnt-btn {
     display: block;
     margin: 2rem auto 0 auto;
-    transform: translateX(20%); /* shift right */
+    transform: translateX(20%);
+    position: static;
+    top: auto;
+    right: auto;
+    align-self: center;
   }
-}
 
-/* ===== Social Links ===== */
-.social-links {
-  display: flex;
-  gap: 30px;
-  position: relative;
-  right: 50px;
-}
-}
+  .social-links {
+    display: flex;
+    gap: 30px;
+    position: relative;
+    right: 50px;
+    justify-content: center;
+    padding-left: 0;
+    margin-top: 1.5rem;
+  }
 
-
-
-@media (max-width: 768px) {
+  /* About Section */
   .abt-scroll-wrapper {
     height: 100vh;
     overflow-y: auto;
@@ -504,6 +506,7 @@ gap: 30px;
   }
 
   .abt-cont {
+    flex-direction: column;
     padding: 1rem;
     gap: 1.5rem;
     padding-bottom: 2rem;
@@ -526,13 +529,16 @@ gap: 30px;
   .about-cnt {
     padding: 0 20px;
     font-size: 1rem;
+    text-align: center;
+    left: 0;
+    bottom: 0;
   }
 
   html, body {
     height: 100%;
     overflow-x: hidden;
   }
-}
+
   /* Contact Section */
   .container {
     padding: 2rem 1rem;
@@ -562,3 +568,4 @@ gap: 30px;
   nav ul li {
     margin: 0.5rem 0;
   }
+}
