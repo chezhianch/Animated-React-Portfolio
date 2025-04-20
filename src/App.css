@@ -458,9 +458,8 @@ gap: 30px;
   .hero-text {
     padding: 0;
     text-align: left;
-    position: relative;
+    position: static;
     left: 10px;
-   
   margin-top: -50px; /* Adjust this as needed */
 
       
