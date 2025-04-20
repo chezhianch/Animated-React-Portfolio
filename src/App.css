@@ -494,52 +494,71 @@ gap: 30px;
 }
 }
 
-  @media (max-width: 768px) {
+
+
     /* ===== FIXED ABOUT Section ===== */
-    .abt-cont {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: flex-start;
-      text-align: center;
-      padding: 1rem;
-      gap: 1.5rem;
-      height: auto; /* Previously 100vh */
-      overflow: visible; /* Previously overflow-y: auto */
-      box-sizing: border-box;
+    @media (max-width: 768px) {
+      .abt-scroll-wrapper {
+        max-height: 100vh;
+        overflow-y: auto;
+        padding: 1rem;
+        box-sizing: border-box;
+      }
+    
+      .abt-scroll-wrapper::-webkit-scrollbar {
+        width: 6px;
+      }
+    
+      .abt-scroll-wrapper::-webkit-scrollbar-thumb {
+        background-color: #00d9ff;
+        border-radius: 3px;
+      }
+    
+      .abt-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        padding: 1rem;
+        gap: 1.5rem;
+        height: auto;
+        overflow: visible;
+        box-sizing: border-box;
+      }
+    
+      .profile-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+    
+      .profile-img img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      }
+    
+      .about-cnt {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+        font-size: 1rem;
+        line-height: 1.6;
+        word-break: break-word;
+      }
+    
+      .about {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #00d9ff;
+      }
     }
-  
-    .profile-img {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-bottom: 1rem;
-    }
-  
-    .profile-img img {
-      width: 140px;
-      height: 140px;
-      object-fit: cover;
-      border-radius: 50%;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    }
-  
-    .about-cnt {
-      width: 100%;
-      text-align: center;
-      padding: 0 20px;
-      font-size: 1rem;
-      line-height: 1.6;
-      word-break: break-word;
-    }
-  
-    .about {
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-bottom: 10px;
-      color: #00d9ff;
-    }
-  }
+    
   
   /* Contact Section */
   .container {

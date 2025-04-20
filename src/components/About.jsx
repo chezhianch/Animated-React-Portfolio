@@ -4,8 +4,8 @@ import Navbar from './Navbar'
 const About = () => {
   return (
     <div>
-      
-    <section className='abt-cont'>
+      <div class="abt-scroll-wrapper">
+      <section className='abt-cont'>
     <div className='profile-img'>
       <img src="Images/profile.jpg" alt="" />
      </div>
@@ -22,6 +22,8 @@ const About = () => {
   </p>
 </div>
     </section>
+      </div>
+   
  
     </div>
   )
