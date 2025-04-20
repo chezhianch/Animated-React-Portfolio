@@ -299,7 +299,7 @@ gap: 30px;
 }
 /* Container for the contact form */
 .container {
-  display: flex;
+  display: flexg;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -374,8 +374,6 @@ gap: 30px;
   background-color: #00e6e6;
 }
 /* === IMPROVED RESPONSIVENESS === */
-
-/* === TABLET & BELOW === */
 @media (max-width: 1024px) {
   .cnt-btn {
     top: auto;
@@ -495,49 +493,54 @@ gap: 30px;
   right: 50px;
 }
 }
-/* ===== About Section ===== */
-@media (max-width: 768px) {
-  .abt-cont {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 1rem;
-    gap: 1.5rem;
-    height: auto;
-    overflow: visible;
-  }
 
-  .profile-img {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
+  @media (max-width: 768px) {
+    /* ===== FIXED ABOUT Section ===== */
+    .abt-cont {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      text-align: center;
+      padding: 1rem;
+      gap: 1.5rem;
+      height: auto; /* Previously 100vh */
+      overflow: visible; /* Previously overflow-y: auto */
+      box-sizing: border-box;
+    }
+  
+    .profile-img {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+  
+    .profile-img img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+  
+    .about-cnt {
+      width: 100%;
+      text-align: center;
+      padding: 0 20px;
+      font-size: 1rem;
+      line-height: 1.6;
+      word-break: break-word;
+    }
+  
+    .about {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #00d9ff;
+    }
   }
-
-  .profile-img img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  }
-
-  .about-cnt {
-    width: 100%;
-    padding: 0 1rem;
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-
-  .about {
-    font-size: 1.5rem;
-    color: #00d9ff;
-    margin-bottom: 10px;
-  }
-}
-
+  
   /* Contact Section */
   .container {
     padding: 2rem 1rem;
@@ -566,13 +569,3 @@ gap: 30px;
 
   nav ul li {
     margin: 0.5rem 0;
-  }
-
-
-
-
-
-
-
-
-
