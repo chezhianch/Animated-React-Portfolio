@@ -458,11 +458,12 @@ gap: 30px;
   .hero-text {
     padding: 0;
     text-align: left;
-    position: static;
+    position: relative;
     left: 10px;
-  margin-top: -50px; /* Adjust this as needed */
-
-      
+ /* Adjust this as needed */
+  }
+     .hero-text { 
+         margin-top: -50px;
     }
     .social-links {
       display: flex;
