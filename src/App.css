@@ -299,7 +299,7 @@ gap: 30px;
 }
 /* Container for the contact form */
 .container {
-  display: flexg;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -457,10 +457,8 @@ gap: 30px;
 .hero-text {
   padding: 20px;
   text-align: left;
-  position: relative;
-  left: 10px;
-  top: 30px;
-  margin-top: -50px;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .hero-text h1 {
@@ -479,11 +477,15 @@ gap: 30px;
 }
 
 /* ===== Contact Button ===== */
-.cnt-btn {
-  position: relative;
-  margin-top: 25px;
-  left: 80px;
+@media (max-width: 768px) {
+  .cnt-btn {
+    display: block;
+    margin: 2rem 0 0 auto; /* pushes it to the right */
+    position: relative;    /* override the absolute positioning */
+    right: 0;              /* reset any previous right value */
+  }
 }
+
 
 /* ===== Social Links ===== */
 .social-links {
