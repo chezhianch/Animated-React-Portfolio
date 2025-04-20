@@ -424,7 +424,7 @@ gap: 30px;
   }
 .align{
   position: relative;
-  left: 20px;
+  left: 10px;
   top: 40px;
 }
 .portfolio-text{
@@ -485,10 +485,10 @@ gap: 30px;
 
   .cnt-btn {
     position: static;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-right: 10px;
     position: absolute;
-    left:60px;
+    right:50px;
   }
 
   /* About Section */
