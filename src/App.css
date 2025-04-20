@@ -436,7 +436,7 @@ gap: 30px;
 .social-links {
   display: flex;
  position:relative;
-  left:10px;
+  right:30px;
 }
   /* Hero Section */
   .hero-content {
