@@ -4,6 +4,12 @@
     margin: 1rem auto;
   }
 }
+@media (max-width: 768px) {
+  .scrollable-container {
+    overflow-x: auto; /* or overflow: auto for both directions */
+    white-space: nowrap; /* optional: prevents wrapping of child elements */
+  }
+}
 
 @media (max-width: 480px) {
   .card {
@@ -15,6 +21,8 @@
 @media (max-width: 768px) {
   .cards-container {
     flex-direction: column;
+    position:relative;
+    margin-top:50px;
     align-items: center;
     gap: 2rem;
   }
