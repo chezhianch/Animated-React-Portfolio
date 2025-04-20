@@ -424,6 +424,7 @@ gap: 30px;
   }
 .align{
   position: relative;
+  left: 20px;
   top: 40px;
 }
 .portfolio-text{
@@ -487,7 +488,7 @@ gap: 30px;
     margin-top: 20px;
     margin-right: 10px;
     position: relative;
-    right: 10px;
+    left:50px;
   }
 
   /* About Section */
