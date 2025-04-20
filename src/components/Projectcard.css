@@ -15,6 +15,8 @@
 @media (max-width: 768px) {
   .cards-container {
     flex-direction: column;
+    position:relative;
+    top:50px;
     align-items: center;
     gap: 2rem;
   }
