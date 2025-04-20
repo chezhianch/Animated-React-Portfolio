@@ -12,7 +12,8 @@ const handleclick2=()=>{
     <div className='page-wrapper'>
     <div className="cards-container">
       {/* First Card */}
-      <div className="card">
+      <div classname="scrollable-container">
+            <div className="card">
         <div className="banner-image">
           <img src="/Images/Portfolio.png" alt="Portfolio" />
         </div>
@@ -47,6 +48,8 @@ const handleclick2=()=>{
           </div>
         </div>
       </div>
+      </div>
+
     </div>
     </div>
 
