@@ -14,7 +14,7 @@ const ProjectCard = () => {
     <div className="page-wrapper">
       <div className="cards-container">
 
-        <div className="scrollable-container">
+        
           {/* First Card */}
           <div className="card">
             <div className="banner-image">
@@ -53,7 +53,7 @@ const ProjectCard = () => {
         </div>
 
       </div>
-    </div>
+  
   );
 };
 
