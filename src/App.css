@@ -476,16 +476,13 @@ gap: 30px;
   width: 250px;
 }
 
-/* ===== Contact Button ===== */
 @media (max-width: 768px) {
   .cnt-btn {
     display: block;
-    margin: 2rem 0 0 auto; /* pushes it to the right */
-    position: relative;    /* override the absolute positioning */
-    right: 0;              /* reset any previous right value */
+    margin: 2rem auto 0 auto;
+    transform: translateX(20%); /* shift right */
   }
 }
-
 
 /* ===== Social Links ===== */
 .social-links {
