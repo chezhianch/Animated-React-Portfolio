@@ -494,7 +494,7 @@ gap: 30px;
   }
 
   /* About Section */
- .about-wrapper {
+ .about-cont {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
@@ -503,22 +503,22 @@ gap: 30px;
   padding: 20px;
 }
 
-.about-img {
+.profile-img img {
   max-width: 250px;
   height: auto;
   object-fit: contain;
 }
 
-.about-content {
+.about-cnt {
   text-align: left;
   padding-left: 20px;
 }
 
 /* Scrollbar styling */
-.about-wrapper::-webkit-scrollbar {
+.about-cont::-webkit-scrollbar {
   width: 6px;
 }
-.about-wrapper::-webkit-scrollbar-thumb {
+.about-cont::-webkit-scrollbar-thumb {
   background-color: #2194ba;
   border-radius: 3px;
 }
