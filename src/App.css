@@ -424,7 +424,7 @@ gap: 30px;
   }
 .align{
   position: relative;
-  top: 30px;
+  top: 50px;
 }
 .portfolio-text{
   position:absolute;
@@ -451,16 +451,16 @@ gap: 30px;
     text-align: left;
     flex-direction: column;
     padding: 1rem;
-    position: relative;
+   
     top: 60px;
-left: 20px;
+
   }
 
   .hero-text {
     padding: 0;
     text-align: left;
     position: relative;
-    left: 20px;
+    left: 10px;
     }
     .social-links {
       display: flex;
@@ -486,6 +486,8 @@ left: 20px;
     position: static;
     margin-top: 20px;
     margin-right: 10px;
+    position: relative;
+    right: 10px;
   }
 
   /* About Section */
