@@ -501,22 +501,11 @@ gap: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding: 20px;
+    text-align: center;
+    padding: 1rem;
     gap: 1.5rem;
-    height: 100vh;
-    overflow-y: auto;
-    overflow-x: hidden;
-    box-sizing: border-box;
-  }
-
-  .abt-cont::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  .abt-cont::-webkit-scrollbar-thumb {
-    background-color: #2194ba;
-    border-radius: 3px;
+    height: auto;
+    overflow: visible;
   }
 
   .profile-img {
@@ -527,29 +516,27 @@ gap: 30px;
   }
 
   .profile-img img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   }
 
   .about-cnt {
     width: 100%;
+    padding: 0 1rem;
     text-align: center;
-    padding: 0 20px;
     font-size: 1rem;
-    word-break: break-word;
+    line-height: 1.6;
   }
 
   .about {
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
     color: #00d9ff;
+    margin-bottom: 10px;
   }
 }
-
 
   /* Contact Section */
   .container {
