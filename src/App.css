@@ -433,7 +433,11 @@ gap: 30px;
   .nav-links li a {
     font-size: 16px;
   }
-
+.social-links {
+  display: flex;
+ position:relative;
+  left:10px;
+}
   /* Hero Section */
   .hero-content {
     text-align: start;
