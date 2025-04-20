@@ -498,65 +498,58 @@ gap: 30px;
 
     /* ===== FIXED ABOUT Section ===== */
     @media (max-width: 768px) {
-      .abt-scroll-wrapper {
-        max-height: 100vh;
-        overflow-y: auto;
-        padding: 1rem;
-        box-sizing: border-box;
-      }
-    
-      .abt-scroll-wrapper::-webkit-scrollbar {
-        width: 3px;
-      }
-    
-      .abt-scroll-wrapper::-webkit-scrollbar-thumb {
-        background-color:#464646;
-        border-radius: 3px;
-      }
-    
-      .abt-cont {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        text-align: center;
-        padding: 1rem;
-        gap: 1.5rem;
-        height: auto;
-        overflow: visible;
-        box-sizing: border-box;
-      }
-      .profile-img {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        margin: 1.5rem 0 1rem 0; /* Added top margin */
-      }
-      
-    
-      .profile-img img {
-        width: 140px;
-        height: 140px;
-        object-fit: cover;
-        border-radius: 50%;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-      }
-    
-      .about-cnt {
-        width: 100%;
-        text-align: center;
-        padding: 0 20px;
-        font-size: 1rem;
-        line-height: 1.6;
-        word-break: break-word;
-      }
-    
-      .about {
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin-bottom: 10px;
-        color: #00d9ff;
-      }
+      /* ✅ CSS STYLES */
+
+.abt-scroll-wrapper {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* Keep your existing class names */
+
+.abt-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 1rem;
+  gap: 1.5rem;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.profile-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 1rem; /* adds space above and below the image */
+}
+
+.profile-img img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.about {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00d9ff;
+}
+
+.about-cnt {
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+  font-size: 1rem;
+  line-height: 1.6;
+  word-break: break-word;
+}
+
     }
     
   
