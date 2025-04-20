@@ -486,8 +486,8 @@ gap: 30px;
   .cnt-btn {
     position: static;
     margin-top: 20px;
-   margin-right:10px;
-    position: absolute;
+
+    right:10px;
     
   }
 
