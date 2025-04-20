@@ -8,6 +8,11 @@
     "preview": "vite preview",
     "build": "vite build"
   },
+    "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+   "build": "vite build"
+  },
   "dependencies": {
     "@tsparticles/preset-stars": "^3.2.0",
     "emailjs-com": "^3.2.0",
