@@ -458,9 +458,15 @@ left: 20px;
 
   .hero-text {
     padding: 0;
-    text-align: center;
-  }
-
+    text-align: left;
+    position: relative;
+    left: 20px;
+    }
+    .social-links {
+      display: flex;
+     position:relative;
+      right:50px;
+    } 
   .hero-text h1 {
     font-size: 2rem;
   }
