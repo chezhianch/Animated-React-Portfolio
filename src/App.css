@@ -374,13 +374,14 @@ gap: 30px;
   background-color: #00e6e6;
 }
 /* === IMPROVED RESPONSIVENESS === */
+/* === TABLETS & SMALLER SCREENS === */
 @media (max-width: 1024px) {
   .cnt-btn {
-    top: auto;
-    right: auto;
     position: static;
     margin-top: 2rem;
     align-self: center;
+    top: auto;
+    right: auto;
   }
 
   .hero-img img {
@@ -406,13 +407,12 @@ gap: 30px;
 }
 
 /* === MOBILE & SMALL TABLETS === */
-/* === MOBILE & SMALL TABLETS === */
 @media (max-width: 768px) {
   /* Navbar */
   .navbar {
     flex-direction: column;
-    left: 0;
     top: 30px;
+    left: 0;
     padding: 0;
   }
 
@@ -424,10 +424,10 @@ gap: 30px;
 
   .align {
     position: relative;
-    left: 0px;
     top: 40px;
-    gap: 20px;
+    left: 0;
     flex-direction: column;
+    gap: 20px;
   }
 
   .nav-links {
@@ -441,12 +441,13 @@ gap: 30px;
     font-size: 16px;
   }
 
+  /* Portfolio Text */
   .portfolio-text {
     font-size: 24px;
     left: 15px;
     top: 5px;
     position: absolute;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   /* Hero Section */
@@ -479,9 +480,9 @@ gap: 30px;
 
   .cnt-btn {
     display: block;
+    position: static;
     margin: 2rem auto 0 auto;
     transform: translateX(20%);
-    position: static;
     top: auto;
     right: auto;
     align-self: center;
@@ -489,10 +490,10 @@ gap: 30px;
 
   .social-links {
     display: flex;
+    justify-content: center;
     gap: 30px;
     position: relative;
     right: 50px;
-    justify-content: center;
     padding-left: 0;
     margin-top: 1.5rem;
   }
@@ -527,16 +528,11 @@ gap: 30px;
   }
 
   .about-cnt {
-    padding: 0 20px;
     font-size: 1rem;
+    padding: 0 20px;
     text-align: center;
     left: 0;
     bottom: 0;
-  }
-
-  html, body {
-    height: 100%;
-    overflow-x: hidden;
   }
 
   /* Contact Section */
@@ -559,7 +555,7 @@ gap: 30px;
     font-size: 1rem;
   }
 
-  /* General cleanup */
+  /* General Cleanup */
   nav ul {
     flex-direction: column;
     gap: 0.5rem;
@@ -567,5 +563,11 @@ gap: 30px;
 
   nav ul li {
     margin: 0.5rem 0;
+  }
+
+  /* Global Fixes */
+  html, body {
+    height: 100%;
+    overflow-x: hidden;
   }
 }
