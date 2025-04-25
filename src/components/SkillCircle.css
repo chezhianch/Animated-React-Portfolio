@@ -1,7 +1,10 @@
    /* Responsive */
    @media (max-width: 768px) {
-    .skills-section {
-      padding: 20px;
+    .skills-grid{
+      height: 100vh;
+      overflow-y: auto;
+      padding-bottom: 25rem;
+      box-sizing: border-box;
     }
 
     .skills-title {
@@ -9,7 +12,7 @@
     }
 
     .skills-grid {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       gap: 20px 40px;
     }

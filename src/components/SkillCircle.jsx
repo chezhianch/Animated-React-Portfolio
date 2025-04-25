@@ -9,6 +9,7 @@ const SkillCircle = ({ skill, percent, color, logo }) => {
   const strokeDashoffset = circumference - (percent / 100) * circumference;
 
   return (
+    <div className="skill-scroll"> 
     <div className="skill-wrapper">
       <img src={logo} alt={`${skill} logo`} className="skill-logo" />
       <div className="skill-card">
@@ -32,11 +33,12 @@ const SkillCircle = ({ skill, percent, color, logo }) => {
               strokeDasharray={circumference}
               strokeDashoffset={strokeDashoffset}
             />
-          </svg>
+          </svg> 
           <div className="skill-percent">{percent}%</div>
           <div className="skill-name">{skill}</div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

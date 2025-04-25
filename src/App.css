@@ -477,7 +477,7 @@ gap: 30px;
 
   .hero-img img {
     position: relative;
-    top:-5px ;
+    top:-20px ;
     width: 250px;
     right: 0;
   }
@@ -506,8 +506,9 @@ gap: 30px;
   .abt-scroll-wrapper {
     height: 100vh;
     overflow-y: auto;
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
 
   .abt-cont {
@@ -541,7 +542,8 @@ gap: 30px;
 
   /* Contact Section */
   .container {
-    padding: 2rem 1rem;
+    margin-top: 50px;
+    padding: 2rem 3rem;
   }
 
   .form {
